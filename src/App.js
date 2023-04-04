@@ -27,7 +27,7 @@ function App() {
       return;
     }
     var tokenValid = false;    
-    axios.get("http://localhost:8000/tokenValidation?token=" + token)
+    axios.get("https://prickly-waistcoat-cod.cyclic.app/tokenValidation?token=" + token)
   .then(response => {
     
     console.log("TOKEN RESPONSE IS: " + response.data);

@@ -98,7 +98,7 @@ function Home() {
 
   function getQuote() {
     axios
-      .get("http://localhost:8000/quote")
+      .get("https://prickly-waistcoat-cod.cyclic.app/quote")
       .then((response) => {
         console.log(response.data);
         document.getElementById("quote").innerHTML =

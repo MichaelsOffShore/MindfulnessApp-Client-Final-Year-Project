@@ -19,7 +19,7 @@ function Tasks() {
     if(responseValue === ""){
       responseValue = "Response Not Submitted";
     }
-    axios.post("http://localhost:8000/addQuestionnaireData", {
+    axios.post("https://prickly-waistcoat-cod.cyclic.app/addQuestionnaireData", {
     "Token": localStorage.getItem("token"),
     "MindfulnessTest": "Task",
     "media-content":localStorage.getItem("link"),

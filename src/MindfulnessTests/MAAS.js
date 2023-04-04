@@ -363,7 +363,7 @@ function MAAS() {
     qDataNew["End Time"] = endTime;
 
     axios
-      .post("http://localhost:8000/addQuestionnaireData", qDataNew)
+      .post("https://prickly-waistcoat-cod.cyclic.app/addQuestionnaireData", qDataNew)
       .then(function (response) {
         navigate("/pages/Home");
       })
