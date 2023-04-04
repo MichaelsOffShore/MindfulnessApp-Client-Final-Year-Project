@@ -1,0 +1,77 @@
+.App {
+  background-color: #37306B;
+  text-align: center;
+  color: whitesmoke;
+  font-family: tahoma;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+.inputBox{
+height: 3vh;
+width: 20vh;
+border-radius: 1vh;
+}
+.header{
+position: absolute;
+top: 5vh;
+margin: auto;
+padding: auto;
+}
+
+.login{
+
+  border-radius: 53px;
+  background: linear-gradient(145deg, #5c2f72, #6d3888);
+  box-shadow:  21px 21px 0px #432254,
+               -21px -21px 0px #8946aa;
+  text-align: center;
+  background-color: #66347F;
+  height: 70vh;
+  border-radius: 1.1vh;
+  color: aliceblue;
+}
+.App-link {
+  color: #61dafb;
+}
+.loginButton{
+  background-color: #1ccc5b;
+  border-radius: 0.8vh;
+  width: 10vh;
+  color: white;
+  scale: 2;
+  cursor: pointer;
+  transition: transform 0.4s;
+  border-style: none;
+}
+button{
+  background-color: #1ccc5b;
+  border: solid 0.3vh white;
+  border-radius: 1.1vh;
+  width: 10vh;
+  color: white;
+  scale: 1.2;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+}
+
+
+
+button:hover {
+  transform: scale(1.5);
+}
+img{
+  scale: 0.4;
+  border-radius: 5rem;
+  margin-bottom: -5rem;
+  margin-top: -5rem;
+  transition: transform 0.5s; 
+}
+img:hover {
+  transform: scale(1.2); 
+}

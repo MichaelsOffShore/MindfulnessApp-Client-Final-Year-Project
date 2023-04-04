@@ -1,0 +1,92 @@
+.Home {
+  background-color: #282c34;
+  text-align: center;
+  color: whitesmoke;
+  font-family: tahoma;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 5vh;
+  margin: auto;
+  padding: auto;
+  margin-bottom: 50px;
+}
+button:hover {
+  transform: scale(1.5);
+}
+.quote{
+  white-space: normal; 
+  word-wrap: break-word;
+  white-space: pre-wrap;
+word-break: break-word;
+text-align: center;
+width:40%; 
+border-style: outset;
+border-radius: 5vh;
+padding-bottom: 5%;
+scale: 0.8;
+border-color: #ffb449;
+position: relative;
+top: 12rem;
+}
+
+#kentucky {
+  color: white;
+  border: solid 0.3vh white;
+  background-color: #3a8660;
+  /*filter: blur(4px);*/
+}
+#toronto {
+  color: white;
+  border: solid 0.3vh white;
+  background-color: tomato;
+  /* filter: blur(4px); */
+
+}
+#maas {
+  color: white;
+  border: solid 0.3vh white;
+  background-color: dodgerblue;
+  /*filter: blur(4px);*/
+
+}
+#langer {
+  color: white;
+  border: solid 0.3vh white;
+  background-color: #a18fc4;
+  /*filter: blur(4px);*/
+
+}
+#phil {
+  color: white;
+  border: solid 0.3vh white;
+  background-color: #93bfcf;
+  /*filter: blur(4px);*/
+}
+
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 25px;
+  position: relative;
+  top:-10rem;
+  left:5rem;
+  border-radius: 53px;
+}
